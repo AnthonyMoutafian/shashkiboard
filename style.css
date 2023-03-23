@@ -1,0 +1,38 @@
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .square {
+    width: 12.5%;
+    height: 50px;
+  }
+
+  .white {
+    background-color: #c5c0c0;
+  }
+
+  .green {
+    background-color: #43a43c;
+  }
+
+  .black-piece{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border-radius: 50%;
+  }
+
+  .white-piece{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+  }
